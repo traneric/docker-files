@@ -1,0 +1,4 @@
+Start the container: docker run -it ubuntu
+Download curl dependencies: apt-get update; apt-get install curl
+Start process: sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+Test input: helsinki.fi
